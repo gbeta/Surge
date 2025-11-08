@@ -1,5 +1,5 @@
 # > 转载深巷有喵的「Surge_EN」配置
-# > 日期：2025-10-10
+# > 日期：2025-11-8
 # > 版本：3.7.6
 # > 配置作者：https://github.com/Rabbit-Spec/Surge
 # > 适用版本：iOS/macOS的Surge 5
@@ -61,6 +61,8 @@ Spotify = select, Proxy, 🇭🇰 香港节点, 🇺🇸 美国节点, 🇯🇵 
 BiliBili = select, DIRECT, 🇭🇰 香港节点, 🇨🇳 台湾节点, icon-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/bilibili.png
 GlobalMedia = select, Proxy, 🇭🇰 香港节点, 🇺🇸 美国节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, icon-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/HKMTMedia.png
 Microsoft = select, DIRECT, Proxy, 🇭🇰 香港节点, 🇺🇸 美国节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, icon-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Windows_11.png
+Speedtest = select, DIRECT, Proxy, 🇭🇰 香港节点, 🇺🇸 美国节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, icon-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Speedtest.png
+X = select, DIRECT, Proxy, 🇭🇰 香港节点, 🇺🇸 美国节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, icon-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/X.png
 Gamer = select, DIRECT, Proxy, 🇭🇰 香港节点, 🇺🇸 美国节点, 🇯🇵 日本节点,  🇸🇬 新加坡节点, icon-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Game.png
 
 # > 外部节点
@@ -89,6 +91,10 @@ RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/r
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GitHub/GitHub.list,Proxy,no-resolve
 # > 微软服务
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Microsoft/Microsoft.list,Microsoft
+# > Speedtest
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Speedtest/Speedtest.list,Speedtest
+# > X
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Twitter/Twitter.list,X
 # > 社交平台
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Telegram/Telegram.list,Telegram
 # > 游戏平台
